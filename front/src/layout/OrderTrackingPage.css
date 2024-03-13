@@ -1,0 +1,34 @@
+.timeline {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-box {
+    background-color: #f9f9f9;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .timeline-middle {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .timeline-middle svg {
+    fill: #6366f1; /* เปลี่ยนสีไอคอน */
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px dashed #ccc; /* เปลี่ยนสีและรูปแบบของเส้นแบ่ง */
+    flex-grow: 1;
+  }
+  
